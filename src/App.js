@@ -1,14 +1,16 @@
 import React from "react"
 import { Jumbotron } from "react-bootstrap";
+import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar"
-import Aboutme from "./components/Aboutme"
+
 
 function App() {
   return (
+    <BrowserRouter>
     <Jumbotron>
     <Navbar />
-    <Aboutme /> 
     </Jumbotron>
+    </BrowserRouter>
   );
 }
 
