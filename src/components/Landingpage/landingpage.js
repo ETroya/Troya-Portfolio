@@ -3,6 +3,7 @@ import {Grid, Cell} from "react-mdl"
 import Me from "../../Assets/images/Headshot.jpg"
 import style from "../Landingpage/style.css"
 
+
 class Landing extends Component{
     render(){
         return(
@@ -17,7 +18,7 @@ class Landing extends Component{
         < div className="banner-text">
             <h1>Full Stack Web Developer</h1>
             <hr/>
-            <p> HTML/CSS | Bootstrap | Javascript | MERN | Python</p>
+            <p> Python | Javascript | Bootstrap | Javascript | MERN: MongoDB, Express, React, Node.js | HTML/CSS</p>
             <div className="social-links">
                 {/* The _blank helps to open up the link on a new window.  */}
                 {/* linkedin */}
@@ -34,6 +35,7 @@ class Landing extends Component{
 
 </Grid>
             </div>
+
         )
     }
 }

@@ -17,19 +17,18 @@ return(
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Quick Links">
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
-            <Main/>
         </Drawer>
         <Content>
         <div className="page-content" />
-        <Main />
         </Content>
+        {/* <Main /> */}
     </Layout>
 </div>
 )
