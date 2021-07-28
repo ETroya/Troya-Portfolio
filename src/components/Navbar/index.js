@@ -1,6 +1,7 @@
 import React, {useState} from "react"; 
 import {Layout, Header, Navigation, Drawer, Content} from "react-mdl";
 import Main from "../Main/main"
+import style from "../Navbar/style.css";
 import {BrowserRouter, Link} from "react-router-dom"
 
 function MyNavbar(){
@@ -8,7 +9,7 @@ function MyNavbar(){
 return(
 <div style={{height: '300px', position: 'relative'}}>
     <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}>This is / </span><strong>Edwin Troya</strong></span>}>
+        <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>This is / </span><strong>Edwin Troya</strong></span>}>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
