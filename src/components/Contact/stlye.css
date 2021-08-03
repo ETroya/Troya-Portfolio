@@ -16,23 +16,30 @@
   justify-content: center;
   width: 80%;
   height: 1000px;
-  color: black;
+  color: blue;
   margin-bottom: 20px;
 }
 
 .contact-grid h2 {
   font-family: "Anton", sans-serif;
+  justify-content: center;
+  color: blue;
 }
 .contact-grid p {
   font-family: "Oxygen", sans-serif;
   font-family: bold;
+  color: blue
 }
 .contact-grid hr {
-  border-top: 5px dotted black;
+  border-top: 5px dotted blue;
   width: 50%;
   margin: auto;
 }
 .contact-list {
   font-size:66px;
   padding-right: 5rem;
+}
+
+.fa-fa-envelope{
+  color:blue
 }

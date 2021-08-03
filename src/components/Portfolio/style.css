@@ -19,3 +19,8 @@ justify-content: center;
 .projectcard{
     margin: 10px;
 }
+
+.content-title h1{
+    font-family: "Anton", sans-serif;
+    color: blue;
+}
