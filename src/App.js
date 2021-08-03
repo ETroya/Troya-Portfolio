@@ -9,10 +9,7 @@ import style from "./index.css"
 function App() {
   return (
     <BrowserRouter>
-    <Jumbotron>
-    <Navbar />
     <Main />
-    </Jumbotron>
     </BrowserRouter>
   );
 }

@@ -3,8 +3,6 @@ background: #4AC29A;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 text-align: center;
-position:fixed;
-bottom: 100;
 top: 0;
 left:0;
 width: 100%;
@@ -15,7 +13,6 @@ height:100%;
     object-fit: cover;
     top: 400px;
     height: 400px;
-    position: relative;
     top:auto;
     border-radius: 50%;
     margin-top: 130px;

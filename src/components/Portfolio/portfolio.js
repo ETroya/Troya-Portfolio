@@ -23,9 +23,9 @@ class Portfolio extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="project-grid">
+        <div className="project-grid" id="Portfolio">
           {/* //  Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} className="projectcard">
             <CardTitle
               style={{
                 color: "#fff",
@@ -84,7 +84,7 @@ class Portfolio extends Component {
             </CardActions>
           </Card>
           {/* //  Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} className="projectcard">
             <CardTitle
               style={{
                 color: "#fff",
@@ -141,7 +141,7 @@ class Portfolio extends Component {
           </Card>
 
           {/* //  Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} className="projectcard">
             <CardTitle
               style={{
                 color: "#fff",
@@ -190,7 +190,7 @@ class Portfolio extends Component {
             </CardActions>
           </Card>
           {/* //  Project 4 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} className="projectcard">
             <CardTitle
               style={{
                 color: "#fff",
@@ -239,7 +239,7 @@ class Portfolio extends Component {
             </CardActions>
           </Card>
           {/* //  Project 4 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} className="projectcard">
             <CardTitle
               style={{
                 color: "#fff",
@@ -309,22 +309,26 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="category-tabs">
-        <Tabs
+        <div className="content-title">
+          <h1>Projects</h1>
+        {/* <Tabs
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>Projects</Tab>
-          {/* <Tab>Project 2</Tab>
+          <Tab className="Header">Projects</Tab>
+          <Tab>Project 2</Tab>
           <Tab>Project 3</Tab>
-          <Tab>Project 4</Tab> */}
-        </Tabs>
-
+          <Tab>Project 4</Tab>
+        </Tabs> */}
+        </div>
+      <div>
         <Grid>
           <Cell col={12}>
-            <div className="content">{this.toggleCategories()}</div>
+            <div>{this.toggleCategories()}</div>
           </Cell>
         </Grid>
+        </div>
       </div>
     );
   }

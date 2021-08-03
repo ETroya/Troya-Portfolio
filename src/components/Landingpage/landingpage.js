@@ -1,8 +1,10 @@
 import React, {Component} from "react";
 import {Grid, Cell} from "react-mdl"
 import Me from "../../Assets/images/Headshot.jpg"
+import Aboutme from "../Aboutme";
 import style from "../Landingpage/style.css"
-
+import Portfolio from "../Portfolio/portfolio";
+import Contact from "../Contact/contact"
 
 class Landing extends Component{
     render(){
@@ -32,8 +34,9 @@ class Landing extends Component{
             </div>
         </div>
     </Cell>
-    
-
+    <Aboutme/>
+    <Portfolio />
+    <Contact/>
 </Grid>
             </div>
 

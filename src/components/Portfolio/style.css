@@ -1,3 +1,21 @@
 .project-grid{
 display:flex;
+justify-content: center;
+
+}
+
+.category-tabs{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    
+}
+
+.content-title{
+    width: 100%;
+}
+
+.projectcard{
+    margin: 10px;
 }

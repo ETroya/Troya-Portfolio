@@ -1,7 +1,5 @@
 .contact-body {
   margin: auto;
-  background: grey;
-  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -18,9 +16,7 @@
   justify-content: center;
   width: 80%;
   height: 1000px;
-  background: white;
   color: black;
-  border: 2px solid red;
   margin-bottom: 20px;
 }
 
