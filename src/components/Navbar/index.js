@@ -11,6 +11,7 @@ return(
     <Layout fixedHeader>
         <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>This is / </span><strong>Edwin Troya</strong></span>}>
             <Navigation>
+                <Link to="/">Main</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/portfolio">Portfolio</Link>

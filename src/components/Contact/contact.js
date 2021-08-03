@@ -10,7 +10,7 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Edwin Troya</h2>
-            <img src={Glasses} alt="Photo of me" styl={{ height: "250px" }} />
+            <img src={Glasses} alt="Clip" styl={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               {" "}
               born and raised in New Jersey. After graduating high school, he
@@ -35,12 +35,12 @@ class Contact extends Component {
                   <i className="fa fa-envelope" aria-hidden="true"/>
                   edtroyajr@gmail.com</ListItemContent>
               </ListItem>
-              <ListItem>
+              {/* <ListItem>
                 <ListItemContent icon="person"></ListItemContent>
               </ListItem>
               <ListItem>
                 <ListItemContent icon="person"></ListItemContent>
-              </ListItem>
+              </ListItem> */}
             </List>
             </div>
             
