@@ -24,7 +24,7 @@ class Landing extends Component{
             <div className="social-links">
                 {/* The _blank helps to open up the link on a new window.  */}
                 {/* linkedin */}
-                <a href="https://www.linkedin.com/in/edwin-troya/" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/edwin-troya/" rel="noopener noreferrer" target ="_blank">
                 <i class="fab fa-linkedin-in"></i></a>
 
                 {/* Github */}
