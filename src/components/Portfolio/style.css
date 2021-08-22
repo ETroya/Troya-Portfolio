@@ -1,7 +1,7 @@
 .project-grid{
 display:flex;
 justify-content: center;
-
+flex-wrap: wrap;
 }
 
 .category-tabs{
@@ -9,7 +9,6 @@ justify-content: center;
     justify-content: center;
     margin: auto;
     flex-direction: column;
-    
 }
 
 .content-title{
