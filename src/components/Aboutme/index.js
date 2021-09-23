@@ -5,7 +5,7 @@ class Aboutme extends Component{
         return(
             <div Id="Aboutme">
                 <h1 className="title">Aboutme</h1>
-                <p className="text">I was born and raised in New Jersey. After graduating high school, he
+                <p className="text">I was born and raised in New Jersey. After graduating high school, I
             was very passionate about law enforcement. I persuaded
             education in Criminal Justice at Caldwell University. After a few
             years, I found another interest in Web Developing. I started
